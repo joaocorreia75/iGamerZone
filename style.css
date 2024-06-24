@@ -1,0 +1,684 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   } 
+
+
+html {
+    scroll-behavior: smooth   
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    position: sticky;
+    top :0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 14px;
+    background-color: rgb(38, 38, 38)
+}
+
+header h1 a{
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+nav a{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.banner img{
+    width: 100%;
+
+}
+
+.cartao_principal1 img {
+    width: 500px;
+    float: left;
+    margin-left: 400px;
+    padding: 10px 10px;
+    height: 625px;
+    margin-top: 200px;
+}
+
+.cartao_principal2 img {
+    width: 500px;
+    float: right;
+    margin-right: 399px;
+    padding: 10px 10px;
+    height: 625px;
+    margin-top: 200px;
+}
+
+.produto1 {
+    background-color: rgb(38, 38, 38);
+    color:white;
+    position:absolute;
+    bottom: -446px;
+    width: 480px;
+    height: 70px;
+    margin-left: 410px;
+    text-align: center;
+}
+
+.produto1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.produto2 {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    position: absolute;
+    bottom: -446px;
+    width: 480px;
+    height: 70px;
+    margin-left: 1014px;
+    text-align: center;   
+}
+
+.produto2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.cartoes_destaque{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    
+}
+
+main h1{
+    text-align: center;
+    margin-top: 1000px;
+    font-size: 2.5rem;
+}
+
+.cartoes_destaque img{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.cartao1 {
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38)
+}
+
+.cartao2{
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38)
+}
+
+.cartao3 {
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38)
+}
+
+.cartao4{
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38)
+}
+
+.cartao5{
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    line-height: 30px;
+    background-color: rgb(38, 38, 38)
+}
+
+
+.cartoes_informativos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.cartoes_informativos i{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.cartoes_informativos span{
+    font-size: 2rem;
+    
+    
+}
+
+.cartaoentrega{
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    line-height: 30px;
+    margin-left: -50px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+   
+}
+
+.cartaoentrega h2{
+    text-align: center;
+    font-size:1.5rem;
+}
+
+
+.cartaolevantamentoloja {
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    line-height: 30px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+.cartaolevantamentoloja h2{
+    text-align: center;
+}
+
+.cartaoportes {
+    border: 2px;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    line-height: 30px;
+    margin-right: -50px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+ 
+}
+
+.cartaoportes h2{
+    text-align: center;
+
+}
+
+footer{
+    margin-top: 200px;
+    background-color: rgb(38, 38, 38);
+    padding: 50px;
+    position: relative;
+}
+
+footer h1{
+    margin-top: 10px;
+    color: white;
+    text-align: right;
+    font-size: 1.8rem;
+    margin-right: 150px;
+}
+
+footer h2{
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+footer p{
+    margin-top: 10px;
+    color: white;
+    text-align: left;
+}
+
+footer i{
+    color: white;
+    bottom: 60px;
+    right: -1450px;
+    font-size: 40px;
+    position:relative;
+    padding: 20px;
+}
+
+#bg-apple {
+    color: white;
+}
+
+main h3{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+.cartoesfila1 img{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cartoesfila1 p{
+    font-size: 1.5rem;
+}
+
+.cartoesfila1 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    padding: 15px;
+}
+
+.cartao_apple1 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-left: 150px;
+    
+    
+}
+
+.cartao_apple2 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+
+}
+
+
+.cartao_apple3 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-right: 150px;
+}
+
+.cartoesfila2 img{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cartoesfila2 p{
+    font-size: 1.5rem;
+}
+
+.cartoesfila2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+.cartao_apple4 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-left: 150px;
+    
+    
+}
+
+.cartao_apple5 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+
+}
+
+
+.cartao_apple6 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-right: 150px;
+}
+
+
+.cartoesfila3 img {
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.cartoesfila3 p{
+    font-size: 1.5rem;
+}
+
+.cartoesfila3 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+.cartao_apple7 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-left: 150px;
+}
+
+
+
+.cartao_apple8 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+}
+
+
+.cartao_apple9 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+#bg-gaming{
+color: white;
+}
+
+main h2{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+
+
+.cartoesgaming_fila1 img{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cartoesgaming_fila1 p{
+    font-size: 1.5rem;
+}
+
+.cartoesgaming_fila1 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    padding: 15px;
+}
+
+.cartaogaming1 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-left: 150px;
+    
+    
+}
+
+.cartaogaming2 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+
+}
+
+
+.cartaogaming3 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-right: 150px;
+}
+
+.cartoesgaming_fila2 img  {
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cartoesgaming_fila2 p{
+    font-size: 1.5rem;
+}
+
+.cartoesgaming_fila2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+.cartaogaming4 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-left: 150px;
+
+}
+
+.cartaogaming5 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+    
+}
+
+.cartaogaming6 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+.cartoesgaming_fila3 img  {
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cartoesgaming_fila3 p{
+    font-size: 1.5rem;
+}
+
+.cartoesgaming_fila3 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+.cartaogaming7 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgb(38, 38, 38);
+    margin-left: 150px;
+
+}
+
+.cartaogaming8 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+    
+}
+
+.cartaogaming9 {
+    border: 2px;
+    text-align: center;
+    width: 350px;
+    height: 460px;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+#bg-contacto{
+    background-color: white;
+}
+
+.formulario{
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color:white;
+}
+
+.formulario-sucesso h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    background-color: white;
+    color:black;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.03);
+    transition: all 300ms ease-in;
+}
+
+.sucesso{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
